@@ -347,15 +347,15 @@
 				// 隐藏启动屏幕
 				startScreen.classList.add('hidden');
 				
-				// 0.8秒后完全移除启动屏幕并开始生成便签
-				setTimeout(() => {
-					startScreen.style.display = 'none';
-					window.appStarted = true;cle
-					// 触发便签生成
-					if (window.startCardGeneration) {
-						window.startCardGeneration();
-					}
-				}, 800);
+			// 0.8秒后完全移除启动屏幕并开始生成便签
+			setTimeout(() => {
+				startScreen.style.display = 'none';
+				window.appStarted = true;
+				// 触发便签生成
+				if (window.startCardGeneration) {
+					window.startCardGeneration();
+				}
+			}, 800);
 			});
 		</script>
 
