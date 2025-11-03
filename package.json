@@ -1,0 +1,18 @@
+{
+  "name": "sticky-notes-wall",
+  "version": "1.0.0",
+  "description": "温馨便签墙 - 带背景音乐的互动便签展示页面",
+  "main": "surprise.html",
+  "scripts": {
+    "dev": "python start_server.py",
+    "start": "python start_server.py"
+  },
+  "keywords": [
+    "sticky-notes",
+    "web",
+    "music"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
